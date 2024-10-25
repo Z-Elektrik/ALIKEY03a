@@ -92,8 +92,8 @@
 		(aux_axis_origin 104.4898 68.2668)
 		(grid_origin 104.4898 68.2668)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0010000_7ffffffe)
+			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -102,7 +102,7 @@
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
-			(plotframeref no)
+			(plotframeref yes)
 			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
@@ -116,17 +116,17 @@
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
+			(plotreference no)
 			(plotvalue yes)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
-			(mirror no)
-			(drillshape 1)
+			(outputformat 4)
+			(mirror yes)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Export/")
 		)
 	)
 	(net 0 "")
@@ -149,7 +149,7 @@
 	(net 17 "Net-(P1-Pad1)")
 	(net 18 "Net-(P2-Pad1)")
 	(net 19 "Net-(P3-Pad1)")
-	(footprint "THD_Switch_Omron:B3W-90xx-x2xN_Omron"
+	(footprint "Library:B3W-90xx-x2xN_Omron"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "1d060f10-1284-41f0-a1e9-4eac1cf2449e")
@@ -869,7 +869,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "630502eb-a43f-4113-8093-ec595c389da2")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-9000-rg2c.stp"
+		(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-901x-xx2x.stp"
 			(offset
 				(xyz 0 0 -5.5)
 			)
@@ -881,7 +881,7 @@
 			)
 		)
 	)
-	(footprint "THD_Mechanical_Generic:MountingHole_3.2mm_M3"
+	(footprint "Library:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "3a85782f-14ec-4721-a1bf-488c8f87088e")
 		(at 135.4898 64.2668)
@@ -1297,7 +1297,7 @@
 			(uuid "feb3f4b1-fec5-45cc-9ebe-495663b1b7e1")
 		)
 	)
-	(footprint "THD_Switch_Omron:B3W-90xx-x2xN_Omron"
+	(footprint "Library:B3W-90xx-x2xN_Omron"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "6d1a50d0-0e71-4235-8667-9666f646431e")
@@ -2031,7 +2031,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "6bcca100-3987-4beb-b546-01d6664cce9c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-9000-rg2c.stp"
+		(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-901x-xx2x.stp"
 			(offset
 				(xyz 0 0 -5.5)
 			)
@@ -2043,7 +2043,7 @@
 			)
 		)
 	)
-	(footprint "THD_Mechanical_Generic:MountingHole_3.2mm_M3"
+	(footprint "Library:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "9a0dfd7e-2826-4f05-ad8d-3dbb5d396e76")
 		(at 73.4898 64.2668)
@@ -2459,7 +2459,7 @@
 			(uuid "9d5d2aae-6e63-4a86-a7c9-47413f4004e3")
 		)
 	)
-	(footprint "THD_Mechanical_Generic:MountingHole_3.2mm_M3"
+	(footprint "Library:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "a4473476-471d-4a4a-9b71-ca3bf8edb224")
 		(at 73.4898 72.2668)
@@ -2875,7 +2875,7 @@
 			(uuid "7a56dcd0-efd7-459f-bdfe-4ca09f86b3e5")
 		)
 	)
-	(footprint "THD_Switch_Omron:B3W-90xx-x2xN_Omron"
+	(footprint "Library:B3W-90xx-x2xN_Omron"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "dfdf4abf-5cac-4a8e-b3fa-cdd570d0e816")
@@ -3617,7 +3617,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "f333166d-3b6b-4cc6-b964-bfae83cc9117")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-9000-rg2c.stp"
+		(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-901x-xx2x.stp"
 			(offset
 				(xyz 0 0 -5.5)
 			)
@@ -3629,7 +3629,7 @@
 			)
 		)
 	)
-	(footprint "THD_Mechanical_Generic:MountingHole_3.2mm_M3"
+	(footprint "Library:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "eff5dca5-d262-4b44-bcc6-00c4e0a7ad06")
 		(at 135.4898 72.2668)
@@ -4045,7 +4045,7 @@
 			(uuid "e46e8275-6869-47e3-9f2c-5b20fe58f5ae")
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "0cca9c7a-bf34-4d49-859a-0d3bbe80f897")
 		(at 95.5998 72.7118 90)
@@ -4535,7 +4535,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "1bd5657c-9aab-4c53-a8b6-0df2f5f3fa42")
 		(at 113.3798 66.9968 -90)
@@ -5034,7 +5034,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "2acc0ce5-022f-4cf2-90c3-207f7cc84b0d")
 		(at 124.1748 72.0768 90)
@@ -5547,7 +5547,7 @@
 			)
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R254_508R50"
+	(footprint "Library:SMD_PAD_R254_508R50"
 		(layer "B.Cu")
 		(uuid "3944ad3e-0f30-4e54-9fba-4391e38530f4")
 		(at 80.3598 63.3138 -90)
@@ -6061,7 +6061,7 @@
 			(uuid "87e9686b-c185-4173-b34d-8ce1858880ca")
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R200_508R50"
+	(footprint "Library:SMD_PAD_R200_508R50"
 		(layer "B.Cu")
 		(uuid "427c0af1-e7b5-4aa4-b180-fdf3819b1ea4")
 		(at 128.6198 64.4568 90)
@@ -6616,7 +6616,7 @@
 			(uuid "709a5c61-2ff3-4df0-8e6e-ffe515d5cb44")
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R200_508R50"
+	(footprint "Library:SMD_PAD_R200_508R50"
 		(layer "B.Cu")
 		(uuid "477008b1-d772-40b4-a38d-d8897ce4079c")
 		(at 128.6198 61.9168 90)
@@ -7185,7 +7185,7 @@
 			(uuid "face65e6-fc54-42cd-87cb-98dc5240813c")
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R254_508R50"
+	(footprint "Library:SMD_PAD_R254_508R50"
 		(layer "B.Cu")
 		(uuid "52e96fd4-a11b-4676-8a91-2320363c7507")
 		(at 79.7248 66.6158 90)
@@ -7713,7 +7713,7 @@
 			(uuid "a5d34257-24fc-4dc1-9ab7-343d9224ca52")
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "547bd75d-e11a-49bf-b023-30a1c614bcf5")
 		(at 96.2348 67.6318 -90)
@@ -8233,7 +8233,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "6d345d1b-32fd-4326-8fb3-901551751ae3")
 		(at 97.5048 63.8218 180)
@@ -8737,7 +8737,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "6e0d2a41-c30d-4d6f-a48d-5c4afe894fad")
 		(at 84.1698 68.2668 90)
@@ -9224,7 +9224,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "70c04d81-652e-45cd-a580-59bb7f88c713")
 		(at 84.8048 72.7118 -90)
@@ -9739,7 +9739,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "791dd215-782d-4c04-b17b-22501807ba49")
 		(at 110.8398 72.0768 -90)
@@ -10257,7 +10257,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "7d1e7117-4e07-4e93-8f15-3361b38ba50a")
 		(at 98.1398 72.7118 90)
@@ -10759,7 +10759,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "80ff0422-798b-4bcb-bc9a-77a8191c7b33")
 		(at 124.1748 64.4568 -90)
@@ -11280,7 +11280,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "81796d80-b05a-4311-9e84-f2c9bff307fd")
 		(at 112.1098 63.1868 180)
@@ -11792,7 +11792,7 @@
 			)
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R200_508R50"
+	(footprint "Library:SMD_PAD_R200_508R50"
 		(layer "B.Cu")
 		(uuid "874885ff-a9e4-4293-b7cc-3e6268c5fecd")
 		(at 128.6198 72.0768 90)
@@ -12339,7 +12339,7 @@
 			(uuid "5bafb2f8-f885-4b0c-856c-c32e5a992a25")
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "89fe3197-26fb-44c7-a009-b578a55cab70")
 		(at 98.7748 67.6318 -90)
@@ -12838,7 +12838,7 @@
 			)
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R200_508R50"
+	(footprint "Library:SMD_PAD_R200_508R50"
 		(layer "B.Cu")
 		(uuid "92a19b30-ee04-41cc-bee3-0ddcf5023ff9")
 		(at 128.6198 66.9968 -90)
@@ -13399,7 +13399,7 @@
 			(uuid "23b81b5e-16eb-4588-afa9-9a28356a2dcd")
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "a3da9ac3-3073-49f4-a181-d56cf5c2a750")
 		(at 84.8048 63.8218 90)
@@ -13889,7 +13889,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "ad873cbc-bbbc-4b98-8280-8d85944138c7")
 		(at 113.3798 72.0768 -90)
@@ -14404,7 +14404,7 @@
 			)
 		)
 	)
-	(footprint "SMD_Resistor_Generic:RESC3116X65N_1206"
+	(footprint "Library:RESC3116X65N_1206"
 		(layer "B.Cu")
 		(uuid "adef1cec-6e38-4c27-a7e6-fa919deab013")
 		(at 110.8398 66.9968 -90)
@@ -14915,7 +14915,7 @@
 			)
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R254_508R50"
+	(footprint "Library:SMD_PAD_R254_508R50"
 		(layer "B.Cu")
 		(uuid "ba77c4a5-b4c3-4898-9f88-2c8a34706cda")
 		(at 79.7248 69.9178 90)
@@ -15451,7 +15451,7 @@
 			(uuid "76175705-62f5-47e5-bd7d-e2d5f03c422f")
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R200_508R50"
+	(footprint "Library:SMD_PAD_R200_508R50"
 		(layer "B.Cu")
 		(uuid "c7e86a6b-8b1e-454d-9b80-614ee5b43baf")
 		(at 128.6198 74.6168 90)
@@ -15984,7 +15984,7 @@
 			(uuid "d56ec13f-73f9-42cf-9f59-95daf65ff398")
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R200_508R50"
+	(footprint "Library:SMD_PAD_R200_508R50"
 		(layer "B.Cu")
 		(uuid "df289e6e-e730-4851-982e-cf5454326fd4")
 		(at 128.6198 69.5368 -90)
@@ -16531,7 +16531,7 @@
 			(uuid "99baa593-bc01-4be2-8688-c6feb4385224")
 		)
 	)
-	(footprint "SMD_PAD_Generic:SMD_PAD_R254_508R50"
+	(footprint "Library:SMD_PAD_R254_508R50"
 		(layer "B.Cu")
 		(uuid "f374e858-c7d0-41d0-9b0e-520494d455b1")
 		(at 80.3598 73.2198 90)
@@ -22009,6 +22009,751 @@
 		(layer "Edge.Cuts")
 		(uuid "f1265f0c-fa6f-4fc1-867f-5d122acd28ca")
 	)
+	(gr_text "TOP"
+		(at 136.4898 68.7668 0)
+		(layer "F.Cu")
+		(uuid "2d148755-5710-4c74-899f-4d4d7f52c179")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOT"
+		(at 139.049324 68.7668 0)
+		(layer "B.Cu")
+		(uuid "ee6f1f29-3768-40e1-b993-20d07dac2298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "BOT"
+		(at 134.9898 68.7668 0)
+		(layer "B.SilkS")
+		(uuid "ccc0fa1d-760c-4fca-993a-9f7887ee7953")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TOP"
+		(at 131.9898 68.7668 0)
+		(layer "F.SilkS")
+		(uuid "2bfc9847-d1df-4307-947d-e6bfa5108f5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "70.0000 mm x 15.0000 mm"
+		(at 46.896943 22.7178 0)
+		(layer "Dwgs.User")
+		(uuid "023ccef2-04b0-46aa-a788-54aefdbe57f9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Plated Board Edge: "
+		(at 81.054081 34.5888 0)
+		(layer "Dwgs.User")
+		(uuid "0ad91473-ac31-4438-84ea-69ca66f0db03")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Impedance Control: "
+		(at 81.054081 30.6318 0)
+		(layer "Dwgs.User")
+		(uuid "11bd4425-57da-4585-a01d-bd17b8e06f88")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Copper Layer Count: "
+		(at 14.2398 18.7608 0)
+		(layer "Dwgs.User")
+		(uuid "12bec667-784e-43a6-a7c7-b9a4c406255a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Min track/spacing: "
+		(at 14.2398 26.6748 0)
+		(layer "Dwgs.User")
+		(uuid "2a8630e7-ce06-4d19-a3c7-3ea034964005")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text ""
+		(at 81.054081 22.7178 0)
+		(layer "Dwgs.User")
+		(uuid "333703cc-6882-465f-917d-58ee7c46420a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "2"
+		(at 46.896943 18.7608 0)
+		(layer "Dwgs.User")
+		(uuid "33cc03e6-9f54-4efc-bcb6-d4eba764a694")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Min hole diameter: "
+		(at 81.054081 26.6748 0)
+		(layer "Dwgs.User")
+		(uuid "36826e1d-302d-431f-b663-d6b7d243a8d2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Copper Finish: "
+		(at 14.2398 30.6318 0)
+		(layer "Dwgs.User")
+		(uuid "3d8ab14c-ca38-43b6-9881-1e5dbf1f0e66")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "HAL SnPb"
+		(at 46.896943 30.6318 0)
+		(layer "Dwgs.User")
+		(uuid "45a4bea7-20f4-44a6-82aa-b36ef52d8ce9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "0.2032 mm / 0.2032 mm"
+		(at 46.896943 26.6748 0)
+		(layer "Dwgs.User")
+		(uuid "4879921f-202c-4616-958f-5656fafd1b08")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "No"
+		(at 105.996938 30.6318 0)
+		(layer "Dwgs.User")
+		(uuid "5e4973e3-266d-45cd-a1b5-e2fbfa530352")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Edge card connectors: "
+		(at 14.2398 38.5458 0)
+		(layer "Dwgs.User")
+		(uuid "63e4ad2e-9c64-4a87-b0d4-10b5bdb7a5f8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "No"
+		(at 46.896943 34.5888 0)
+		(layer "Dwgs.User")
+		(uuid "7db6eae4-291d-4235-a71c-d37756b88cd3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "BOARD CHARACTERISTICS"
+		(at 13.4898 13.2668 0)
+		(layer "Dwgs.User")
+		(uuid "9c76ab6d-12a1-43e2-b88e-d49d89c56bb4")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text ""
+		(at 105.996938 22.7178 0)
+		(layer "Dwgs.User")
+		(uuid "a9b4b3dc-e02d-4545-97ba-b06b89978d40")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "1.6000 mm"
+		(at 105.996938 18.7608 0)
+		(layer "Dwgs.User")
+		(uuid "c02baeb6-06be-49ce-a3ff-d9d2d2e5e568")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Castellated pads: "
+		(at 14.2398 34.5888 0)
+		(layer "Dwgs.User")
+		(uuid "c121087c-98e8-4834-9717-f0efacbaa7a5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Board overall dimensions: "
+		(at 14.2398 22.7178 0)
+		(layer "Dwgs.User")
+		(uuid "c784cd9e-1b98-4867-8749-76d073aeea44")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "No"
+		(at 105.996938 34.5888 0)
+		(layer "Dwgs.User")
+		(uuid "d23ab739-1907-404b-bafc-16e85d39971c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Board Thickness: "
+		(at 81.054081 18.7608 0)
+		(layer "Dwgs.User")
+		(uuid "d2f394f9-f116-4309-8189-bb9873bec94e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "No"
+		(at 46.896943 38.5458 0)
+		(layer "Dwgs.User")
+		(uuid "d63cf00d-4d53-4ed0-920b-8ddaca309773")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "0.3048 mm"
+		(at 105.996938 26.6748 0)
+		(layer "Dwgs.User")
+		(uuid "eaf2a050-4b46-4511-ad20-0824c6e28445")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(dimension
+		(type leader)
+		(layer "Dwgs.User")
+		(uuid "7c94f6c1-a69f-4e40-b2bd-d1f7231316d5")
+		(pts
+			(xy 70.075586 61.352586) (xy 66.9898 59.2668)
+		)
+		(gr_text "4x r:2.0 mm"
+			(at 54.2898 59.2668 0)
+			(layer "Dwgs.User")
+			(uuid "7c94f6c1-a69f-4e40-b2bd-d1f7231316d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(override_value "4x r:2.0 mm")
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(text_frame 0)
+			(extension_offset 0.5)
+		)
+	)
+	(dimension
+		(type leader)
+		(layer "Dwgs.User")
+		(uuid "d795a286-ccb6-42a8-99f5-28938d7e1a78")
+		(pts
+			(xy 73.4898 63.2668) (xy 71.9898 55.2668)
+		)
+		(gr_text "4x d:3.2 mm"
+			(at 59.2898 55.2668 0)
+			(layer "Dwgs.User")
+			(uuid "d795a286-ccb6-42a8-99f5-28938d7e1a78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(override_value "4x d:3.2 mm")
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(text_frame 0)
+			(extension_offset 0.5)
+		)
+	)
+	(dimension
+		(type center)
+		(layer "Dwgs.User")
+		(uuid "00ac1a30-5bc2-48dc-af84-f3d9a0c46cbb")
+		(pts
+			(xy 104.4898 68.2668) (xy 104.9898 68.2668)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "06fbd9e0-547d-4740-ad7b-b9725e3c8c40")
+		(pts
+			(xy 69.4898 73.766801) (xy 139.4898 73.766801)
+		)
+		(height 11.999999)
+		(orientation 0)
+		(gr_text "70.00 mm"
+			(at 104.4898 84.7168 0)
+			(layer "Dwgs.User")
+			(uuid "06fbd9e0-547d-4740-ad7b-b9725e3c8c40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "07721aa6-0b87-44bc-a8a2-6db649c8d26f")
+		(pts
+			(xy 104.9898 68.2668) (xy 135.4898 64.2668)
+		)
+		(height 38)
+		(orientation 1)
+		(gr_text "4.00 mm"
+			(at 142.9898 55.2668 90)
+			(layer "Dwgs.User")
+			(uuid "07721aa6-0b87-44bc-a8a2-6db649c8d26f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "2824556a-008b-4f9d-9d2d-72bd34ef89c3")
+		(pts
+			(xy 69.4898 73.766801) (xy 104.4898 68.7668)
+		)
+		(height 8.499999)
+		(orientation 0)
+		(gr_text "35.0000 mm"
+			(at 86.9898 81.2168 0)
+			(layer "Dwgs.User")
+			(uuid "2824556a-008b-4f9d-9d2d-72bd34ef89c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "37b345ea-3140-479d-b34f-12ca8358e1d6")
+		(pts
+			(xy 73.4898 72.2668) (xy 104.4898 68.7668)
+		)
+		(height 7.5)
+		(orientation 0)
+		(gr_text "31.0000 mm"
+			(at 88.9898 78.7168 0)
+			(layer "Dwgs.User")
+			(uuid "37b345ea-3140-479d-b34f-12ca8358e1d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "70e93590-72f8-4fe3-bc20-acd1ef613a5c")
+		(pts
+			(xy 104.9898 68.2668) (xy 137.489801 60.7668)
+		)
+		(height 42)
+		(orientation 1)
+		(gr_text "7.50 mm"
+			(at 146.9898 55.2668 90)
+			(layer "Dwgs.User")
+			(uuid "70e93590-72f8-4fe3-bc20-acd1ef613a5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "7b4dfda3-32d0-4c5e-a0f9-d0cd5bd3e9cb")
+		(pts
+			(xy 104.4898 68.7668) (xy 139.4898 73.7668)
+		)
+		(height 13.5)
+		(orientation 0)
+		(gr_text "35.00 mm"
+			(at 121.9898 81.2168 0)
+			(layer "Dwgs.User")
+			(uuid "7b4dfda3-32d0-4c5e-a0f9-d0cd5bd3e9cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "9be036f0-8dad-4956-bb01-cb94f59739dd")
+		(pts
+			(xy 137.4898 75.7668) (xy 137.489801 60.7668)
+		)
+		(height 13.5)
+		(orientation 1)
+		(gr_text "15.00 mm"
+			(at 149.9398 68.2668 90)
+			(layer "Dwgs.User")
+			(uuid "9be036f0-8dad-4956-bb01-cb94f59739dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "a8c6e381-d351-4f62-a7cf-c73039743eb3")
+		(pts
+			(xy 137.489801 75.7668) (xy 104.9898 68.2668)
+		)
+		(height 9.499999)
+		(orientation 1)
+		(gr_text "7.50 mm"
+			(at 146.4898 80.7668 90)
+			(layer "Dwgs.User")
+			(uuid "a8c6e381-d351-4f62-a7cf-c73039743eb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "eab85b6e-d4d6-40f5-b686-4cf719fc5594")
+		(pts
+			(xy 104.4898 68.7668) (xy 135.4898 72.2668)
+		)
+		(height 11)
+		(orientation 0)
+		(gr_text "31.00 mm"
+			(at 119.9898 78.7168 0)
+			(layer "Dwgs.User")
+			(uuid "eab85b6e-d4d6-40f5-b686-4cf719fc5594")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f2b6639d-e9e1-4695-a2bf-f13b122bc2ce")
+		(pts
+			(xy 135.4898 72.2668) (xy 104.9898 68.2668)
+		)
+		(height 7.5)
+		(orientation 1)
+		(gr_text "4.00 mm"
+			(at 142.9898 80.7668 90)
+			(layer "Dwgs.User")
+			(uuid "f2b6639d-e9e1-4695-a2bf-f13b122bc2ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.05)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 84.780202 70.016398)
 		(end 92.904398 70.016398)
@@ -23304,5 +24049,21 @@
 		(layer "B.Cu")
 		(net 19)
 		(uuid "b5ae6d8f-2b5e-44e8-b530-2005d23765a2")
+	)
+	(group "group-boardCharacteristics"
+		(uuid "a0a998f9-7dbb-426d-b1ff-ad58b5b398cd")
+		(members "023ccef2-04b0-46aa-a788-54aefdbe57f9" "0ad91473-ac31-4438-84ea-69ca66f0db03"
+			"11bd4425-57da-4585-a01d-bd17b8e06f88" "12bec667-784e-43a6-a7c7-b9a4c406255a"
+			"2a8630e7-ce06-4d19-a3c7-3ea034964005" "333703cc-6882-465f-917d-58ee7c46420a"
+			"33cc03e6-9f54-4efc-bcb6-d4eba764a694" "36826e1d-302d-431f-b663-d6b7d243a8d2"
+			"3d8ab14c-ca38-43b6-9881-1e5dbf1f0e66" "45a4bea7-20f4-44a6-82aa-b36ef52d8ce9"
+			"4879921f-202c-4616-958f-5656fafd1b08" "5e4973e3-266d-45cd-a1b5-e2fbfa530352"
+			"63e4ad2e-9c64-4a87-b0d4-10b5bdb7a5f8" "7db6eae4-291d-4235-a71c-d37756b88cd3"
+			"9c76ab6d-12a1-43e2-b88e-d49d89c56bb4" "a9b4b3dc-e02d-4545-97ba-b06b89978d40"
+			"c02baeb6-06be-49ce-a3ff-d9d2d2e5e568" "c121087c-98e8-4834-9717-f0efacbaa7a5"
+			"c784cd9e-1b98-4867-8749-76d073aeea44" "d23ab739-1907-404b-bafc-16e85d39971c"
+			"d2f394f9-f116-4309-8189-bb9873bec94e" "d63cf00d-4d53-4ed0-920b-8ddaca309773"
+			"eaf2a050-4b46-4511-ad20-0824c6e28445"
+		)
 	)
 )

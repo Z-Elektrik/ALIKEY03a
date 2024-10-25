@@ -1,0 +1,3 @@
+"#","Technology","Reference","Z-SYSCODE","Qty","Value","Footprint"
+"1","SMD","R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15","3569","15","2k2","SMD_Resistor_Generic:RESC3116X65N_1206"
+"2","THD","K1,K2,K3","","3","B3W-9010-RG2N","THD_Switch_Omron:B3W-90xx-x2xN_Omron"

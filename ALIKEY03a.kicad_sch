@@ -6,21 +6,14 @@
 	(paper "A5")
 	(title_block
 		(title "ALIKEY03a - Tlacidlova doska 1x3")
-		(date "2024-10-23")
+		(date "2024-10-25")
 		(rev "00")
 		(company "VRM, a.s.")
 		(comment 1 "Janis Peter")
-		(comment 2 "www.zelektrik.sk")
-		(comment 3 "typename")
-		(comment 4 "c4")
-		(comment 5 "c5")
-		(comment 6 "c6")
-		(comment 7 "c7")
-		(comment 8 "c8")
-		(comment 9 "c9")
+		(comment 2 "www.vrm.sk")
 	)
 	(lib_symbols
-		(symbol "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%"
+		(symbol "Library:2k2, SMD 1206, 0.25W, 1%"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -275,7 +268,7 @@
 				)
 			)
 		)
-		(symbol "Switch_Omron:B3W-9010-RG2N, PushButton, 2 LED"
+		(symbol "Library:B3W-9010-RG2N, PushButton, 2 LED"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -867,7 +860,123 @@
 				)
 			)
 		)
-		(symbol "Technology:TestPoint-PAD_THD_C250_250H80"
+		(symbol "Library:GND_Bar"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 1.778 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_Bar"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.508 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bar power symbol creates a net name \"GND\""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Signal_Name" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_Bar_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_Bar_1_1"
+				(rectangle
+					(start -1.27 -2.032)
+					(end 1.27 -1.3208)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:TestPoint-PAD_THD_C250_250H80"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1114,122 +1223,6 @@
 					(at 0 0 0)
 					(length 0)
 					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "_Symbol:GND_Bar"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 1.778 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND_Bar"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.508 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.508 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bar power symbol creates a net name \"GND\""
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Signal_Name" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_Bar_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_Bar_1_1"
-				(rectangle
-					(start -1.27 -2.032)
-					(end 1.27 -1.3208)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2491,7 +2484,7 @@
 		(uuid "f8c58924-0ac2-44f2-9e05-bff968fe70ae")
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 64.77 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2700,7 +2693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 138.43 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2909,7 +2902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 158.75 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3118,7 +3111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch_Omron:B3W-9010-RG2N, PushButton, 2 LED")
+		(lib_id "Library:B3W-9010-RG2N, PushButton, 2 LED")
 		(at 50.8 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3339,7 +3332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_Symbol:GND_Bar")
+		(lib_id "Library:GND_Bar")
 		(at 40.64 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3414,7 +3407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 50.8 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3623,7 +3616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 71.12 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3828,7 +3821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 30.48 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4037,7 +4030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 109.22 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4242,7 +4235,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 64.77 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4447,7 +4440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_Symbol:GND_Bar")
+		(lib_id "Library:GND_Bar")
 		(at 128.27 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4522,7 +4515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 109.22 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4727,7 +4720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 115.57 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4932,7 +4925,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 152.4 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5137,7 +5130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 144.78 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5342,7 +5335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 95.25 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5551,7 +5544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 57.15 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5756,7 +5749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 138.43 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5961,7 +5954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 152.4 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6170,7 +6163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 101.6 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6375,7 +6368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 115.57 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6584,7 +6577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_Symbol:GND_Bar")
+		(lib_id "Library:GND_Bar")
 		(at 30.48 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6659,7 +6652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 95.25 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6864,7 +6857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_Symbol:GND_Bar")
+		(lib_id "Library:GND_Bar")
 		(at 85.09 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6939,7 +6932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 158.75 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7144,7 +7137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch_Omron:B3W-9010-RG2N, PushButton, 2 LED")
+		(lib_id "Library:B3W-9010-RG2N, PushButton, 2 LED")
 		(at 95.25 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7365,7 +7358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 152.4 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7570,7 +7563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 64.77 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7774,7 +7767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 71.12 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7983,7 +7976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch_Omron:B3W-9010-RG2N, PushButton, 2 LED")
+		(lib_id "Library:B3W-9010-RG2N, PushButton, 2 LED")
 		(at 138.43 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8204,7 +8197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_SMD_1206_0.25W_1perc_Generic:2k2, SMD 1206, 0.25W, 1%")
+		(lib_id "Library:2k2, SMD 1206, 0.25W, 1%")
 		(at 50.8 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8409,7 +8402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Technology:TestPoint-PAD_THD_C250_250H80")
+		(lib_id "Library:TestPoint-PAD_THD_C250_250H80")
 		(at 109.22 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
